@@ -16,7 +16,7 @@ def filter2(pkt):
 
 def sniff1():
 	while True:
-		sniff(prn=filter, iface=iinterface)
+		sniff(prn=filter, iface=interface)
 
 def sniff2():
 	while True:
